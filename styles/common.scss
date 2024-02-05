@@ -1,0 +1,22 @@
+// 변수 등록
+$bg-color:#00ffcc;
+$br-c1:#ff00cc;
+$br-c2:#0000ff;
+$br-w1:1px;
+$br-w2:2px;
+$br-w3:3px;
+$br-s:solid;
+
+// mixin 2개 이상의 스타일 규칙 함수
+@mixin flex-r {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+@mixin flex-c {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    align-items: center;
+}

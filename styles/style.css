@@ -1,0 +1,29 @@
+body, html {
+  background-color: #00ffcc;
+}
+
+#wrap {
+  border: 1px solid #ff00cc;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-between;
+  align-items: center;
+}
+#wrap li {
+  border: 2px solid #0000ff;
+}
+#wrap li a, #wrap li a strong, #wrap li a em, #wrap li a span {
+  display: inline-block;
+}
+#wrap li a span {
+  color: #0000ff;
+}
+#wrap li a em {
+  color: #ff00cc;
+}
+#wrap li a strong {
+  color: #0000ff;
+}
+#wrap .first {
+  border: 3px solid #ff00cc;
+}/*# sourceMappingURL=style.css.map */

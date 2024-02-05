@@ -1,0 +1,29 @@
+@import 'common';
+
+// 선택자 활용 변수 사용 및 디자인 작업
+body, html {background-color:$bg-color;}
+#wrap {
+    border: $br-w1 $br-s $br-c1;
+    @include flex-c;
+    li {
+        border: $br-w2 $br-s $br-c2;
+        a {
+            display: inline-block;
+            span {
+                @extend a;
+                color:$br-c2;
+            }
+            em {
+                @extend a;
+                color: $br-c1
+            }
+            strong {
+                @extend a;
+                color: $br-c2;
+            }
+        }
+    }
+    .first {
+        border: $br-w3 $br-s $br-c1;
+    }
+}
